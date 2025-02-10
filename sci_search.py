@@ -339,7 +339,7 @@ def get_keywords_and_best_links(
     for idr, row in tqdm(
         names_links_no_kws.iterrows(),
         total=len(names_links_no_kws),
-        desc="Getting keewords and best link:",
+        desc="Getting keywords and best link:",
     ):
         links_contents = []
         for website_i in range(num_websites):

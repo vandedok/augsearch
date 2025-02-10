@@ -1,0 +1,7 @@
+*.vscode
+*__pycache__/
+*.egg-info/git 
+*.egg-info/
+build/
+.idea
+.ruff_cache
