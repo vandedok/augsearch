@@ -1,0 +1,7 @@
+{
+    "which": "ollama",
+    "host" : "http://localhost:11434",
+    "headers": {"x-some-header": "some-value"},
+    "model": "llama3.2:1b",
+    "context_window": 8000
+}

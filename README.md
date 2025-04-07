@@ -4,13 +4,15 @@ This is my quick-and-dirty project for using LLMs in order to augment the search
 by automatically retrieving relevant links, summarizing their research interests and score them against the topics I am interested in. 
 It is primarily developed for the personal use, though I might make it more open-ended in future.
 
-## isntallation
+## Isntallation
 Navigate into project root directory and run local installation with `pip`:
 
 ```bash
 cd augsearch
 pip install .
 ```
+
+After that the access to the LLM chatbot has to be set up. As of now Gemini and Ollama are supported: you can get the Gemini api key [here](https://ai.google.dev/gemini-api/docs/api-key) or get Ollama deployment instructions [here](https://github.com/ollama/ollama?tab=readme-ov-file). After setting up one of those, compose a config for this tool to the model you want -- see `augsearch/llm_configs` for examples. 
 
 ## Workflow
 
