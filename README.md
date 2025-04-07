@@ -4,7 +4,7 @@ This is my quick-and-dirty project for using LLMs in order to augment the search
 by automatically retrieving relevant links, summarizing their research interests and score them against the topics I am interested in. 
 It is primarily developed for the personal use, though I might make it more open-ended in future.
 
-## Isntallation
+## Installation
 Navigate into project root directory and run local installation with `pip`:
 
 ```bash
